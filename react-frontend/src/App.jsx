@@ -5,7 +5,7 @@ import Employees from "./pages/Employees";
 import AddEmployee from "./pages/AddEmployee";
 import EditEmployee from "./pages/EditEmployee";
 import Settings from "./pages/Settings";
-import Login from "./auth/login";
+import Login from "./auth/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Register from "./auth/Register";
 
