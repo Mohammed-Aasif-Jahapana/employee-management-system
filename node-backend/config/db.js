@@ -12,7 +12,7 @@ const connectDB = async () => {
 
   try {
 
-    await mongoose.connect("mongodb+srv://aasifjahapana_db_user:08VryCdw5DxnK4IP@ems-cluster.0g0eprf.mongodb.net/ems?appName=ems-cluster");
+    await mongoose.connect(process.env.MONGO_URI);
 
     console.log("MongoDB connected");
 

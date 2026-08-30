@@ -4,10 +4,10 @@ import Dashboard from "./pages/Dashboard";
 import Employees from "./pages/Employees";
 import AddEmployee from "./pages/AddEmployee";
 import EditEmployee from "./pages/EditEmployee";
-import Settings from "./pages/Settings";
-import Login from "./auth/Login";
+import Settings from "./pages/Settings"; 
 import ProtectedRoute from "./components/ProtectedRoute";
 import Register from "./auth/Register";
+import Login from "./auth/Login";
 
 const App = () => {
   return (
