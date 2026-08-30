@@ -7,7 +7,7 @@ import EditEmployee from "./pages/EditEmployee";
 import Settings from "./pages/Settings"; 
 import ProtectedRoute from "./components/ProtectedRoute";
 import Register from "./auth/Register";
-import Login from "./auth/login";
+import Login from "./auth/Login";
 
 const App = () => {
   return (
