@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";  
 
 
-const Login = () => {
+const LoginPage = () => {
 
     const navigate = useNavigate();
 
@@ -595,4 +595,4 @@ const Login = () => {
 
 };
 
-export default Login;
+export default LoginPage;

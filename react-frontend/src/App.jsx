@@ -6,8 +6,8 @@ import AddEmployee from "./pages/AddEmployee";
 import EditEmployee from "./pages/EditEmployee";
 import Settings from "./pages/Settings"; 
 import ProtectedRoute from "./components/ProtectedRoute";
-import Register from "./auth/Register";
-import Login from "./auth/Login";
+import Register from "./auth/Register"; 
+import LoginPage from "./auth/LoginPage";
 
 const App = () => {
   return (
@@ -69,7 +69,7 @@ const App = () => {
 
       <Route
         path="/login"
-        element={<Login />}
+        element={<LoginPage />}
       />
 
     </Routes>
