@@ -56,7 +56,7 @@ const LoginPage = () => {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/api/login",
+                 `${import.meta.env.VITE_API_URL}/api/login`,
                 {
                     method: "POST",
 
@@ -500,7 +500,7 @@ const LoginPage = () => {
                                     try {
 
                                         const response = await fetch(
-                                            "http://localhost:5000/api/google-login",
+                                             `${import.meta.env.VITE_API_URL}/api/google-login`,
                                             {
                                                 method: "POST",
 
